@@ -2,24 +2,16 @@
 	<h2><?php echo __('My Files'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('type'); ?></th>
 			<th><?php echo $this->Paginator->sort('size'); ?></th>
-			<th><?php echo $this->Paginator->sort('data'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($myFiles as $myFile): ?>
 	<tr>
-		<td><?php echo h($myFile['MyFile']['id']); ?>&nbsp;</td>
 		<td><?php echo h($myFile['MyFile']['name']); ?>&nbsp;</td>
 		<td><?php echo h($myFile['MyFile']['type']); ?>&nbsp;</td>
 		<td><?php echo h($myFile['MyFile']['size']); ?>&nbsp;</td>
-		<td><?php echo h($myFile['MyFile']['data']); ?>&nbsp;</td>
-		<td><?php echo h($myFile['MyFile']['created']); ?>&nbsp;</td>
-		<td><?php echo h($myFile['MyFile']['modified']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $myFile['MyFile']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $myFile['MyFile']['id'])); ?>
