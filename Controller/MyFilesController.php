@@ -39,7 +39,18 @@ class MyFilesController extends AppController {
  */
 	public function add() {
 		if ($this->request->is('post')) {
+		
 			$this->MyFile->create();
+			
+			if (!empty($this->request->data) && is_uploaded_file($this->request->data['MyFile']['data']['tmp_name'])) 
+			{
+				$fileData = fread(fopen($this->request->data['MyFile']['data']['tmp_name'], "r"),$this->request->data['MyFile']['data']['size']);
+				$this->request->data['MyFile']['name'] = $this->request->data['MyFile']['data']['name'];
+				$this->request->data['MyFile']['type'] = $this->request->data['MyFile']['data']['type'];
+				$this->request->data['MyFile']['size'] = $this->request->data['MyFile']['data']['size'];
+				$this->request->data['MyFile']['data'] = $fileData;
+			}			
+			
 			if ($this->MyFile->save($this->request->data)) {
 				$this->Session->setFlash(__('The my file has been saved'));
 				$this->redirect(array('action' => 'index'));

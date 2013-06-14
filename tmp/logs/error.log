@@ -77,3 +77,83 @@ Request URL: /DocumentManagement/myfile
 Stack Trace:
 #0 C:\wamp\www\DocumentManagement\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-06-14 02:22:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /DocumentManagement/myfiles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `Do...', Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `Do...')
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1744): DboSource->create(Object(MyFile), Array, Array)
+#4 C:\wamp\www\DocumentManagement\Controller\MyFilesController.php(54): Model->save(Array)
+#5 [internal function]: MyFilesController->add()
+#6 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MyFilesController), Array)
+#7 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MyFilesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\DocumentManagement\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-06-14 02:23:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /DocumentManagement/myfiles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `Do...', Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `Do...')
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1744): DboSource->create(Object(MyFile), Array, Array)
+#4 C:\wamp\www\DocumentManagement\Controller\MyFilesController.php(54): Model->save(Array)
+#5 [internal function]: MyFilesController->add()
+#6 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MyFilesController), Array)
+#7 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MyFilesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\DocumentManagement\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-06-14 02:25:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /DocumentManagement/myfiles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `Do...', Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `Do...')
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1744): DboSource->create(Object(MyFile), Array, Array)
+#4 C:\wamp\www\DocumentManagement\Controller\MyFilesController.php(54): Model->save(Array)
+#5 [internal function]: MyFilesController->add()
+#6 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MyFilesController), Array)
+#7 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MyFilesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\DocumentManagement\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-06-14 02:27:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /DocumentManagement/myfiles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `Do...', Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `Do...')
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1744): DboSource->create(Object(MyFile), Array, Array)
+#4 C:\wamp\www\DocumentManagement\Controller\MyFilesController.php(54): Model->save(Array)
+#5 [internal function]: MyFilesController->add()
+#6 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MyFilesController), Array)
+#7 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MyFilesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\DocumentManagement\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-06-14 02:28:50 Error: Fatal Error (1): Cannot break/continue 1 level in [C:\wamp\www\DocumentManagement\Controller\MyFilesController.php, line 43]
+2013-06-14 02:28:50 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /DocumentManagement/myfiles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot break/co...', 'C:\wamp\www\Doc...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', 'C:\wamp\www\Doc...', 43, Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', 'C:\wamp\www\Doc...', 43, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-14 02:29:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /DocumentManagement/myfiles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `Do...', Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `Do...')
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1744): DboSource->create(Object(MyFile), Array, Array)
+#4 C:\wamp\www\DocumentManagement\Controller\MyFilesController.php(55): Model->save(Array)
+#5 [internal function]: MyFilesController->add()
+#6 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MyFilesController), Array)
+#7 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MyFilesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\DocumentManagement\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

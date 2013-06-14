@@ -6,7 +6,7 @@
 		echo $this->Form->input('name');
 		echo $this->Form->input('type');
 		echo $this->Form->input('size');
-		echo $this->Form->input('data',array('type' => 'file'));
+		echo $this->Form->input('data', array('type' => 'file'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
